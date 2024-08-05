@@ -8,8 +8,9 @@ const ChainId = {
 
 const SUBGRAPH_NAMES = {
   ANALYTICS: "cryptoalgebra/analytics",
-  FARMS: "cryptoalgebra/farms", // farms2, on testnet farms, but this doesn't matter as the proper url is below anyway
+  FARMS: "cryptoalgebra/farms", // Note: old "farms" were migrated, thus we have (currently used) "farms2"
   BLOCKS: "cryptoalgebra/blocks",
+  ICE_TOKEN: "swapsicle/ice-token",
 }
 
 const SUBGRAPH_URLS = {
@@ -30,7 +31,13 @@ const SUBGRAPH_URLS = {
     [ChainId.MANTLE_TESTNET]: "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/cryptoalgebra/blocks-testnet/-/gn",
     [ChainId.TELOS]: "https://telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/blocks2",
     [ChainId.TELOS_TESTNET]: "https://testnet.telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/blocks",
-  }
+  },
+  [SUBGRAPH_NAMES.ICE_TOKEN]: {
+    [ChainId.MANTLE]: "https://subgraph-api.mantle.xyz/subgraphs/name/swapsicle/icetoken",
+    [ChainId.MANTLE_TESTNET]: "https://subgraph-api.mantle.xyz/subgraphs/name/swapsicle/icetoken-testnet",
+    [ChainId.TELOS]: "https://telos.subgraph.swapsicle.io/subgraphs/name/swapsicle/ice-token",
+    [ChainId.TELOS_TESTNET]: "https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle/ice-token-testnet/gn",
+  },
 }
 
 const getSubgraphUrl = (subgraphName, chainId) => {
