@@ -21,24 +21,28 @@ const SUBGRAPH_URLS = {
     [ChainId.MANTLE_TESTNET]: "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics-testnet/2024-08-27/gn",
     [ChainId.TELOS]: "https://telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/analytics",
     [ChainId.TELOS_TESTNET]: "https://testnet.telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/analytics",
+    [ChainId.TAIKO_TESTNET]: "https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-analytics-taiko-hekla/1.0.0/gn",
   },
   [SUBGRAPH_NAMES.FARMS]: {
     [ChainId.MANTLE]: "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/cryptoalgebra/farms/-/gn",
     [ChainId.MANTLE_TESTNET]: "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/farms-testnet/2024-08-27/gn",
     [ChainId.TELOS]: "https://telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/farms2",
     [ChainId.TELOS_TESTNET]: "https://testnet.telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/farms",
+    [ChainId.TAIKO_TESTNET]: "https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-farms-taiko-hekla/1.0.0/gn",
   },
   [SUBGRAPH_NAMES.BLOCKS]: {
     [ChainId.MANTLE]: "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/cryptoalgebra/blocks/-/gn",
     [ChainId.MANTLE_TESTNET]: "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/blocks-testnet/2024-08-27/gn",
     [ChainId.TELOS]: "https://telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/blocks2",
     [ChainId.TELOS_TESTNET]: "https://testnet.telos.subgraph.swapsicle.io/subgraphs/name/cryptoalgebra/blocks",
+    [ChainId.TAIKO_TESTNET]: "https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-blocks-taiko-hekla/1.0.0/gn",
   },
   [SUBGRAPH_NAMES.ICE_TOKEN]: {
     [ChainId.MANTLE]: "https://subgraph-api.mantle.xyz/subgraphs/name/swapsicle/icetoken",
     [ChainId.MANTLE_TESTNET]: "https://subgraph-api.mantle.xyz/subgraphs/name/swapsicle/icetoken-testnet",
     [ChainId.TELOS]: "https://telos.subgraph.swapsicle.io/subgraphs/name/swapsicle/ice-token",
     [ChainId.TELOS_TESTNET]: "https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle/ice-token-testnet/gn",
+    [ChainId.TAIKO_TESTNET]: "https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-icetoken-taiko-hekla/1.0.0/gn",
   },
 }
 
